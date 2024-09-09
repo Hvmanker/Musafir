@@ -1,0 +1,28 @@
+.card-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px; 
+    padding-top: 50px;
+  }
+  
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 60px;
+    max-width: 1000px; 
+    margin: 0 auto; 
+  }
+  .grid-item {
+    text-decoration: none;
+    color: inherit;
+    width: 100%;
+  }
+  .grid-item .card {
+    width: 100%; 
+  }
+  .Location{
+    text-align: center;
+    font: bold;
+    font-size: 20px;
+    padding:30px;
+  }
